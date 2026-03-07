@@ -124,3 +124,48 @@ p {
   font-weight: 200;
   font-size: 20px;
 }
+
+.work-inquiry-section {
+  margin-top: 60px;
+  padding: 60px 80px;
+  background-color: #f4f7fc;
+  border-radius: 4px;
+}
+
+.work-inquiry-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.work-inquiry-text {
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  margin-left: 60px;
+  font-weight: 700;
+}
+
+.work-together-p {
+  color: #7b7b7b;
+  margin: 0 0 0 80px;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.talk-here-link {
+  text-decoration: none;
+  padding: 25px 40px;
+  margin: 50px 140px 0 0;
+  color: white;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 400;
+  background: black;
+}
+
+.talk-here-link:hover {
+  text-decoration: none;
+  color: white;
+}
