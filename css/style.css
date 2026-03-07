@@ -169,3 +169,19 @@ p {
   text-decoration: none;
   color: white;
 }
+
+.socials-footer {
+}
+
+.footer-email-link {
+  display: flex;
+  justify-content: center;
+  font-family: "League Spartan", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
