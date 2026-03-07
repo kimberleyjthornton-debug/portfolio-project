@@ -5,7 +5,7 @@ body {
 .main-container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 40px;
 }
 
 .navbar {
@@ -19,22 +19,49 @@ body {
 }
 
 .nav-item {
-  font-family: "Poppins", sans-serif;
-  font-size: 14px;
+  font-family: "League Spartan", sans-serif;
+  font-size: 18px;
 }
 
 h1 {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 0;
+}
+
+h2 {
   color: black;
   font-family: "Playfair Display", serif;
-  font-size: 42px;
-  font-weight: 600;
-  font-style: normal;
+  font-size: 98px;
+  font-weight: bold;
+  text-align: center;
   margin: 0;
+}
+
+h3 {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  text-align: center;
+  margin: 30px;
+}
+
+.navigation-links {
+  display: flex;
+  margin: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
 }
 
 p {
   color: black;
-  font-family: "Poppins", sans-serif;
+  font-family: "League Spartan", sans-serif;
   font-weight: 200;
   font-size: 20px;
 }
