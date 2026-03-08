@@ -353,6 +353,11 @@ html {
     border-radius: 10px;
     margin-top: 80px;
   }
+  .contact-page-header {
+    font-size: 19px;
+    text-align: center;
+    margin: 10px;
+  }
   .work-inquiry-container {
     display: flex;
     justify-content: space-between;
