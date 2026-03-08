@@ -73,6 +73,37 @@ h4 {
   display: inline-block;
 }
 
+.project-description {
+  color: #3f3f3f;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.fitness-link,
+.weather-link,
+.world-clock-link {
+  display: inline-block;
+  padding: 15px 25px;
+  color: black;
+  text-decoration: none;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.fitness-link:hover,
+.weather-link:hover,
+.world-clock-link:hover {
+  color: black;
+  text-decoration: none;
+  font-family: "League Spartan", sans-serif;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -89,40 +120,6 @@ html {
   font-weight: 400;
   font-size: 20px;
   cursor: pointer;
-}
-
-.yoga-link,
-.weather-link,
-.fitness-link {
-  display: inline-block;
-  padding: 15px 25px;
-  color: black;
-  text-decoration: none;
-  font-family: "League Spartan", sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  border: 1px solid black;
-  border-radius: 4px;
-}
-
-.yoga-link:hover,
-.weather-link:hover,
-.fitness-link:hover {
-  color: black;
-  text-decoration: none;
-  font-family: "League Spartan", sans-serif;
-}
-
-.project-description {
-  margin-top: 10px;
-  margin-bottom: 0;
-}
-
-p {
-  color: black;
-  font-family: "League Spartan", sans-serif;
-  font-weight: 200;
-  font-size: 20px;
 }
 
 .about-me-header {
@@ -169,12 +166,12 @@ p {
   margin: 20px 0;
 }
 
-.project-group-headers {
-  font-family: "league spartan", sans-serif;
-  font-size: 24px;
-  font-weight: bold;
-  margin-top: 25px;
-  text-align: center;
+.project-page-header {
+  font-family: "Playfair Display", serif;
+  font-size: 72px;
+  margin: 120px 0 auto;
+  text-align: start;
+  margin: 80px 0 80px;
 }
 
 .project-image {
@@ -183,6 +180,22 @@ p {
   padding: 80px 40px;
   border-radius: 10px;
   margin: 10px 20px 0 0;
+}
+
+.project-group-headers {
+  font-family: "league spartan", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.project-group p {
+  color: #3f3f3f;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  margin: 0 0 60px 0;
 }
 
 .contact-page-header {
@@ -220,14 +233,6 @@ p {
   margin: 0 0 0 80px;
   font-weight: 400;
   font-size: 22px;
-}
-
-.project-page-header {
-  font-family: "Playfair Display", serif;
-  font-size: 72px;
-  margin: 120px 0 auto;
-  text-align: start;
-  margin: 80px 0 80px;
 }
 
 .talk-here-link {
