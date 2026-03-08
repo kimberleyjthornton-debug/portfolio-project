@@ -331,6 +331,28 @@ html {
     font-size: 16px;
     font-weight: 300;
   }
+  .project-page-header {
+    font-size: 56px;
+    text-align: center;
+    background-color: #f4f7fc;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px 20px 5px 20px;
+  }
+  .project-group-headers h2 {
+    font-size: 26px;
+    margin: 0 10px 0 5px;
+  }
+  .project-group p {
+    font-size: 18px;
+    margin: 0 10px 2px 10px;
+    text-align: center;
+  }
+  .project-image {
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 80px;
+  }
   .work-inquiry-container {
     display: flex;
     justify-content: space-between;
