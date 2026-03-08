@@ -66,14 +66,14 @@ h4 {
   margin-bottom: 400px;
 }
 
-.project-headings {
+.home-project-headings {
   font-family: "Playfair Display", serif;
   font-size: 60px;
-  margin-top: 25px;
+  margin-top: 80px;
   display: inline-block;
 }
 
-.project-description {
+.home-project-description {
   color: #3f3f3f;
   font-family: "League Spartan", sans-serif;
   font-weight: 300;
@@ -125,7 +125,7 @@ html {
 .about-me-header {
   font-family: "Playfair Display", serif;
   font-size: 60px;
-  margin-top: 25px;
+  margin-top: 40px;
   display: inline-block;
 }
 
@@ -135,6 +135,12 @@ html {
   font-size: 22px;
   text-align: center;
   margin: 30px;
+}
+
+.portfolio-image img {
+  width: 500px;
+  border-radius: 10px;
+  margin: 30px 0;
 }
 
 .all-projects-button-wrapper {
@@ -160,12 +166,6 @@ html {
   text-decoration: none;
 }
 
-.portfolio-image img {
-  width: 500px;
-  border-radius: 10px;
-  margin: 20px 0;
-}
-
 .project-page-header {
   font-family: "Playfair Display", serif;
   font-size: 72px;
@@ -179,7 +179,7 @@ html {
   background-color: #f4f7fc;
   padding: 80px 40px;
   border-radius: 10px;
-  margin: 10px 20px 0 0;
+  margin: 30px 20px 0 0;
 }
 
 .project-group-headers {
