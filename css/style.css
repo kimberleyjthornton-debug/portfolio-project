@@ -170,11 +170,11 @@ p {
 }
 
 .project-group-headers {
-  font-family: "Playfair Display", serif;
+  font-family: "league spartan", sans-serif;
   font-size: 24px;
   font-weight: bold;
   margin-top: 25px;
-  display: inline-block;
+  text-align: center;
 }
 
 .project-image {
