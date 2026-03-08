@@ -154,6 +154,14 @@ p {
   font-size: 22px;
 }
 
+.project-page-header {
+  font-family: "Playfair Display", serif;
+  font-size: 72px;
+  margin: 120px 0 auto;
+  text-align: start;
+  margin: 80px 0 80px;
+}
+
 .talk-here-link {
   text-decoration: none;
   padding: 20px 40px;
