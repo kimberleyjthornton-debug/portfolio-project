@@ -280,6 +280,7 @@ html {
 @media (max-width: 600px) {
   .name-heading {
     font-size: 74px;
+    text-align: center;
   }
   .greeting-h1 {
     font-size: 28px;
